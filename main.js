@@ -9,7 +9,7 @@ javascript:(function() {
 
   // Mensagem flutuante visual
   const msg = document.createElement('div');
-  msg.innerText = '✅ Pasting habilitado!';
+  msg.innerText = '✅ Agora a função de copiar/colar está ativada! ✅';
   msg.style.position = 'fixed';
   msg.style.bottom = '20px';
   msg.style.right = '20px';
