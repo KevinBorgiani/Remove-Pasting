@@ -1,4 +1,7 @@
 javascript:(function() {
+  const features = {
+    darkMode: true,
+  };
   const all = document.querySelectorAll('*');
   for (let el of all) {
     el.onpaste = null;
@@ -6,25 +9,14 @@ javascript:(function() {
       e.stopPropagation();
     }, true);
   }
-
-  // Mensagem flutuante visual
-  const msg = document.createElement('div');
-  msg.innerText = '✅ Agora a função de copiar/colar está ativada! ✅';
-  msg.style.position = 'fixed';
-  msg.style.bottom = '20px';
-  msg.style.right = '20px';
-  msg.style.padding = '10px 15px';
-  msg.style.backgroundColor = '#4caf50';
-  msg.style.color = 'white';
-  msg.style.borderRadius = '5px';
-  msg.style.fontFamily = 'sans-serif';
-  msg.style.fontSize = '14px';
-  msg.style.boxShadow = '0 2px 6px rgba(0,0,0,0.3)';
-  msg.style.zIndex = '9999';
-
-  document.body.appendChild(msg);
-
-  setTimeout(() => {
-    msg.remove();
-  }, 3000);
+  alert("✅ Agora a função de copiar/colar está ativada! ✅");
+  const darkReaderScript = document.createElement('script');
+  darkReaderScript.src = 'https://cdn.jsdelivr.net/npm/darkreader@4.9.92/darkreader.min.js';
+  darkReaderScript.onload = () => {
+      DarkReader.setFetchMethod(window.fetch);
+      if (features.darkMode) {
+          DarkReader.enable();
+      }
+  };
+  document.head.appendChild(darkReaderScript);
 })();
