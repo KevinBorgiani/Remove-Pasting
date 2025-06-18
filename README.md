@@ -16,7 +16,7 @@ Remove Pasting é um script experimental que habilita a função de copiar/colar
 
 ### Método 1 – Direto na barra de endereços
 
-1. Acesse o site do [Sala do Futuro]([https://saladofuturo.educacao.sp.gov.br/escolha-de-perfil])
+1. Acesse o site da [Sala do Futuro]([https://saladofuturo.educacao.sp.gov.br/escolha-de-perfil])
 2. Cole o código abaixo na barra de endereços e pressione `Enter`:
 
 ```javascript
