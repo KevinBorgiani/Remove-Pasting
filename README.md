@@ -12,6 +12,13 @@ Remove Pasting é um script experimental que habilita a função de copiar/colar
 
 ---
 
+## ⚙️ Features
+
+- 🎇 Permite copiar/colar em redações
+- 🌑 Tema escuro e visual moderno
+
+---
+
 ## 💡 Como usar:
 
 ### Método 1 – Direto na barra de endereços
