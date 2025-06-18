@@ -8,7 +8,7 @@
 
 ## 🤔 O que é?
 
-Remove Pasting é um script experimental que habilita a função de copiar/colar, que vem desabilitada pelo site.
+- Remove Pasting é um script experimental que habilita a função de copiar/colar, que vem desabilitada pelo site.
 
 ---
 
