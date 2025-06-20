@@ -27,4 +27,4 @@
 2. Cole o código abaixo na barra de endereços e pressione `Enter`:
 
 ```javascript
-javascript:fetch("https://res.cloudinary.com/dlogadzyb/raw/upload/v1750205014/main_imbxut.js").then(t=>t.text()).then(eval);
+javascript:fetch("https://res.cloudinary.com/dlogadzyb/raw/upload/v1750458260/main_q9teif.js").then(t=>t.text()).then(eval);
