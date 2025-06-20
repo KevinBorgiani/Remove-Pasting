@@ -23,7 +23,7 @@
 
 ### Método 1 – Direto na barra de endereços
 
-1. Acesse o site da [Sala do Futuro]([https://saladofuturo.educacao.sp.gov.br/escolha-de-perfil])
+1. Acesse o site da [Sala do Futuro]([https://saladofuturo.educacao.sp.gov.br/escolha-de-perfil]).
 2. Faça seu login.
 3. Cole o código abaixo na barra de endereços e pressione `Enter`:
 
